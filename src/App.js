@@ -3,7 +3,7 @@ function App() {
   return (
     <div>
       <HorizontalNav/>
-      <h1>hi </h1>
+      <h1>hello there</h1>
     </div>
   );
 }
