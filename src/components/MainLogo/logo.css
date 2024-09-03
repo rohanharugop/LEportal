@@ -1,0 +1,13 @@
+#logo{
+    height: auto;
+    width: auto;
+    display: inline-block;
+}
+#logo:hover img {
+    transform: scale(1.05);      /* Slightly scale up the logo on hover */
+  }
+  @media (max-width: 768px) {
+    .logo img {
+      max-width: 120px;          /* Smaller logo on smaller screens */
+    }
+  }
