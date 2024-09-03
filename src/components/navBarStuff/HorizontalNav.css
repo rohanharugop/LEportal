@@ -1,0 +1,39 @@
+/* Styling for the horizontal navigation bar */
+.horizontal-nav {
+    width: 100%;
+    background-color: #333; 
+    overflow: hidden; /* Ensures content is contained within the nav */
+  }
+  
+  /* Styling the unordered list to display horizontally */
+  .horizontal-nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: right; /* Centers the nav items horizontally */
+  }
+  
+  
+  .horizontal-nav li {
+    margin: 20;
+    padding: 0;
+    margin-right: 50px;
+    justify-content: space-between; 
+  }
+  
+  /* Styling each link */
+  .horizontal-nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+    transition: background-color 0.3s; 
+  }
+  
+  /* Hover effect for links */
+  .horizontal-nav a:hover {
+    background-color: #2f4e85; 
+  }
+  

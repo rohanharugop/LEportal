@@ -1,7 +1,9 @@
+import HorizontalNav from "./components/navBarStuff/HorizontalNav";
 function App() {
   return (
     <div>
-      <h1>Hello World!</h1>
+      <HorizontalNav/>
+      <h1>Hello World Rohan!</h1>
     </div>
   );
 }
