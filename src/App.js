@@ -3,7 +3,7 @@ function App() {
   return (
     <div>
       <HorizontalNav/>
-      <h1>Hello World Rohan!</h1>
+      <h1>Hello World Rohan Harugop!</h1>
     </div>
   );
 }
