@@ -5,9 +5,12 @@ import MainLogo from "./components/MainLogo/logo";
 function App() {
   return (
     <div>
-      <MainLogo /> {/* Corrected component usage with capital letter */}
-      <HorizontalNav />
-      <h1>Hello there</h1>
+      <div id="logo-div">
+        <MainLogo />
+      </div>
+      <div id="navbar" className="navbar-padding">
+        <HorizontalNav />
+      </div>
     </div>
   );
 }

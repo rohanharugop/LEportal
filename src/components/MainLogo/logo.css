@@ -1,13 +1,45 @@
-#logo{
-    height: auto;
-    width: auto;
-    display: inline-block;
+#logo-div {
+  height: 100px; /* Increased height */
+  width: 100px;  /* Increased width */
+
+  z-index: 10;
+  padding: 10px;
+  position: absolute;
+  /* overflow: hidden; Ensures content stays within the div */
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centers the image within the div */
+ 
+  top: 0; /* Adjust this value to move the logo vertically */
+  left: 10px; /* Adjust this value to move the logo horizontally */
+ 
 }
-#logo:hover img {
-    transform: scale(1.05);      /* Slightly scale up the logo on hover */
+
+#logo-div img {
+  height: 500%;   /* Make the image fill the height of the div */
+  width: 100%;    /* Make the image fill the width of the div */
+  object-fit: contain; /* Maintains aspect ratio, ensuring the image fits within the div */
+  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+#logo-div:hover img {
+  transform: scale(1.05); /* Slightly scale up the logo on hover */
+}
+
+@media (max-width: 768px) {
+  #logo-div img {
+    max-width: 120px; /* Adjusts the size on smaller screens */
   }
-  @media (max-width: 768px) {
-    .logo img {
-      max-width: 120px;          /* Smaller logo on smaller screens */
-    }
-  }
+}
+#navbar {
+  position: relative;
+  z-index: 1;
+   /* Lower z-index keeps it below the logo */
+}
+
+/* Optional: You might want to add some padding to the navbar to avoid overlap */
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
