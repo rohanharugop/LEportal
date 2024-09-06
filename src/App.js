@@ -1,19 +1,22 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"; // Import React Router components
-import HorizontalNav from "./components/navBarStuff/HorizontalNav";
-import MainLogo from "./components/MainLogo/logo";
-import AboutPage from "./components/navBarStuff/AboutPage";
+import Header from "./components/Navbar/Header";
+import Home from "./pages/Home";
+
+import AboutPage from "./pages/AboutPage";
+
 
 function App() {
   return (
     <Router>
       <div>
-        <div id="logo-div">
-          <MainLogo />
-        </div>
         <div id="navbar" className="navbar-padding">
-          <HorizontalNav />
+          <Header />
         </div>
+        <Routes>
+          {/* <Route path="/" element={<HomePage />} /> Home page */}
+          <Route path="/" element={<Home />} /> 
+        </Routes>
 
         {/* Define routes for different pages */}
         <Routes>
