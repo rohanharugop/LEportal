@@ -1,25 +1,46 @@
+/* Styling for the horizontal navigation bar */
 .header {
-  width: 100%; /* Adjust the width */
-  max-width: auto; /* Optional: Control maximum length */
-  background-color: #333;
+  width: 100%;
+  background-color: white; /* Set navbar background to white */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 15px; /* Reduced padding */
+  padding: 10px 15px; /* Adjust padding */
   box-sizing: border-box;
   margin: 0 auto; /* Center navbar */
 }
 
+/* Styling the unordered list to display horizontally */
 .header ul {
   margin: 0;
   padding: 0;
   list-style: none;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-end; /* Aligns nav items to the right */
 }
 
+/* Styling each list item */
 .header li {
   margin: 0;
   padding: 0;
-  margin-right: 100px; /* Reduced margin between nav items */
+  margin-right: 40px; /* Adjust spacing between nav items */
+  
+}
+
+/* Styling each link */
+.header a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: background-color 0.3s;  
+}
+
+
+/* Hover effect for links */
+.header a:hover { /* Light background color on hover */
+  border-bottom: 2px solid #2f4e85;
+  
+  
 }
