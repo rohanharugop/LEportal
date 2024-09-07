@@ -15,7 +15,7 @@
   
   /* Hover effect for rainbow text color */
   .rainbow-word:hover {
-    background-image: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+    background-image: linear-gradient(90deg, red, rgb(9, 6, 0));
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent; /* Makes the text background appear */
