@@ -1,0 +1,153 @@
+/* Home.css */
+.container {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px;
+}
+  
+.heroSection {
+    background-color: #004080;
+    color: #9fd9e9;
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+  
+.title {
+    font-size: 2.5rem;
+    margin: 0 0 10px 0;
+
+}
+  
+.subtitle {
+    font-size: 1.2rem;
+    margin: 0 0 20px 0;
+    color: #000000;
+}
+  
+.ctaButton {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+.aboutSection {
+    padding: 40px 20px;
+}
+  
+.sectionTitle {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color:rgb(132, 176, 227);
+}
+  
+.aboutText {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+  
+.productsSection {
+    padding: 40px 20px;
+}
+  
+.productList {
+    list-style-type: none;
+    padding: 0;
+}
+  
+.productItem {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 4px;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.aboutText-word:hover {
+    background-image: linear-gradient(90deg, rgb(225, 207, 207), rgb(206, 32, 32));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.aboutText-word {
+    
+    background-image: linear-gradient(90deg, rgb(225, 207, 207), rgb(206, 32, 32));
+    background-clip: text;
+    -webkit-background-clip: text; /* For Safari compatibility */
+    color: transparent; /* Makes the text take the background color */
+    display: inline-block;
+    transition: color 0.4s ease-in-out;
+    cursor: pointer;
+  }
+
+
+
+/* Video Section */
+.videoSection {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #cc7a7a;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.videoWrapper {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #000;
+    border-radius: 8px;
+    overflow: hidden; /* Ensures the video fits within the rounded corners */
+}
+
+video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    outline: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds subtle shadow around video */
+}
+/* Styling for each word (wrapped in span) */
+.rainbow-word {
+    display: inline-block;
+    transition: color 0.4s ease-in-out;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for rainbow text color */
+  .rainbow-word:hover {
+    background-image: linear-gradient(90deg, rgb(236, 229, 229), rgb(221, 18, 18));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent; /* Makes the text background appear */
+  }
+  
+  /* Optional: body and h1 styling */
+  body {
+    background-color: rgb(9, 1, 1);
+    color: white;
+  }
+  
+  h1 {
+    font-size: 50px;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  /* Optional: separator styling */
+  #sep {
+    width: 100%;
+    height: 5px;
+    background-color: black;
+  }
+  
